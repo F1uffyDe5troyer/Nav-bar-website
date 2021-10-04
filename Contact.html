@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a class="active" href="Contact.html">Contact/Order</a></li>
+</ul>
+<h1>Contact Page</h1>
+<form action="https://formspree.io/f/xknkejkd" method="POST" autocomplete="on">
+  <fieldset>
+      <legend>Customer Info:</legend>
+  Name: 
+  <br>
+<input type="text" name="Name" placeholder="Jefferdefferson" autofocus required>
+  <br>
+  <br> 
+
+Phone number:
+  <br>
+<input type="number" placeholder="063-313-045" name="Cellphone number" required>
+  <br>
+  <br>
+
+E-mail adress:
+  <br>
+<input type="email" name="E-mail" placeholder="Jefferdefferson5@gmail.com" multiple required>
+  <br>
+  <br>
+ </fieldset>
+ <fieldset>
+  <legend>Books:</legend>
+  quantity:
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <select name="Books" id="books">
+    <option value="One Piece">One Piece</option>
+    <option value="Naruto">Naruto</option>
+    <option value="Detective conan">Detective conan</option>
+    <option value="Dragon Ball Z">Dragon Ball Z</option>
+    <option value="Golgo 13">Golgo 13</option>
+    <option value="Demonslayer">Demonslayer</option>
+  </select> 
+  </fieldset>  
+  <br>
+<button>Submit</button>
+</form>
+
+</body>
+</html>
